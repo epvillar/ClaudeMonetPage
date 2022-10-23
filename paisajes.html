@@ -1,0 +1,449 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slider.css">
+    <title>Claude Monet Page</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <h3 class="menuItem">Claude <span>Monet</span></h3>
+                <!--img src="./img/sneakers.png" alt=""-->
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput">
+                    <img src="./img/search.png" width="30" height="30" alt="" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Conectate!</span>
+            </div>
+        </div>
+
+        <!--div class="navBottom"-->
+                        
+    <div class="nav">
+        <ul class="menu-nav">
+          <li class="menu-nav__item">
+            <a href="index.html" class="menu-nav__link">
+              Obras
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="genero.html" class="menu-nav__link">
+              Genero
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="marinas.html" class="menu-nav__link">
+              Marinas
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="naturaleza.html" class="menu-nav__link">
+              Naturaleza
+            </a>
+          </li>
+          
+          <li class="menu-nav__item">
+            <a href="paisajes.html" class="menu-nav__link">
+              Paisajes
+            </a>
+          </li>
+          <li class="menu-nav__item">
+            <a href="retratos.html" class="menu-nav__link">
+              Retratos
+            </a>
+          </li>
+          
+        </ul>
+    </div>
+ </nav>
+
+    <!--SLIDER-->
+<div class="slideshow-container">
+    <div class="left">   
+        <h1 class="menuItem left">PAISAJES</h1>
+    <br>
+      
+    <!-- The dots/circles -->
+        <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </div>
+
+    <div class="right">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="./img/paisaje10.jpg" style="width:100%">
+          <!--div class="text">Caption Text</div-->
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="./img/paisaje11.jpg" style="width:100%">
+          <!--div class="text">Caption Two</div-->
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 /6 </div>
+          <img src="./img/paisaje12.jpg" style="width:100%">
+          <!--div class="text">Caption Three</div-->
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 6</div>
+            <img src="./img/paisaje13.jpg" style="width:100%">
+            <!--div class="text">Caption Text</div-->
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 6</div>
+            <img src="./img/paisaje14.jpg" style="width:100%">
+            <!--div class="text">Caption Two</div-->
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 6</div>
+            <img src="./img/paisaje15.jpg" style="width:100%">
+            <!--div class="text">Caption Three</div-->
+          </div>
+      
+        <!-- Next and previous buttons
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a-->
+    </div>
+</div>
+
+   <!--FEATURES-->
+    <div class="features">
+        <div class="feature">
+            <!--img src="./img/shipping.png" alt="" class="featureIcon"-->
+            <span class="featureTitle">1896-1899</span>
+            <span class="featureDesc">Expone 20 cuadros en la Bienal de Venecia, comienza a utilizar sus jardines de 
+                Giverny como motivo de sus pinturas.
+            </span>
+        </div>
+        <div class="feature">
+            <!--img class="featureIcon" src="./img/return.png" alt=""-->
+            <span class="featureTitle">1900-1906</span>
+            <span class="featureDesc">Realiza varios viajes a Londres y a Madrid donde estudió a los maestros españoles. 
+                Trabajó sobre todo en las pinturas de nenúfares.
+            </span>
+        </div>
+        <div class="feature">
+            <!--img class="featureIcon" src="./img/gift.png" alt=""-->
+            <span class="featureTitle">1908</span>
+            <span class="featureDesc">Surgen los primeros indicios de la enfermedad en sus ojos. Estuvo en Venecia, 
+                estudió las obras de Tiziano y Veronese.</span>
+        </div>
+        <div class="feature">
+            <!--img class="featureIcon" src="./img/contact.png" alt=""-->
+            <span class="featureTitle">1921-26</span>
+            <span class="featureDesc">Se realiza una exposición retrospectiva de su pintura. Después de dos operaciones de 
+                cataratas se recupera de su ceguera. Muere en 1926.</span>
+        </div>
+    </div>
+    <!--PRODUCT-->
+<div class="product" id="product">
+    <div class="left">
+        <img src="./img/paisaje00.jpg" alt="" class="productImg">
+    </div>
+
+    <div class="productDetails">
+            <h4 class="productTitle">OTRAS OBRAS:</h4>
+            <!--h2 class="productPrice">$199</h2-->
+            <!--p class="productDesc"></p-->
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+				<div class="color"></div>
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <!--div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div-->
+            <button class="productButton">Comprar!</button-->
+    </div>
+
+        <div class="payment">
+            <h1 class="payTitle">Información personal</h1>
+            <label>Nombre y apellido</label>
+            <input type="text" placeholder="Juan López" class="payInput">
+            <label>Teléfono</label>
+            <input type="text" placeholder="+54 11 4444 4444" class="payInput">
+            <label>Dirección</label>
+            <input type="text" placeholder="Florida 123 CABA" class="payInput">
+            <h1 class="payTitle">Tarjeta de crédito</h1>
+            <div class="cardIcons">
+                <img src="./img/visa.png" width="40" alt="" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Card Number">
+            <div class="cardInfo">
+                <input type="text" placeholder="mes" class="payInput sm">
+                <input type="text" placeholder="año" class="payInput sm">
+                <input type="text" placeholder="cs" class="payInput sm">
+            </div>
+            <button class="payButton">Comprar!</button>
+            <span class="close">X</span>
+        </div>
+</div>
+
+    <!--GALLERY
+<div class="gallery">
+    <div>
+        <h3 class="menuItem">Sus series son famosas</h3>
+    </div>
+
+    <div class="right2">
+        <div class="galleryItem">
+            <img src="./img/etretat1.jpg"
+                alt="" class="galleryImg">
+        </div>
+
+        <div class="galleryItem">
+            <img src="./img/etretat2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle"></h1>
+        </div>
+
+        <div class="galleryItem">
+            <h1 class="galleryTitle"></h1>
+            <img src="./img/etretat3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="right2">
+        <div class="galleryItem">
+            <h1 class="galleryTitle"></h1>
+            <img src="./img/etretat1.jpg"
+                alt="" class="galleryImg">
+        </div>
+
+        <div class="galleryItem">
+            <img src="./img/etretat2.jpg"
+                alt="" class="galleryImg">
+        </div>
+        
+        <div class="galleryItem">
+            <img src="./img/etretat3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="right2">
+        <div class="galleryItem">
+            <h1 class="galleryTitle"></h1>
+            <img src="./img/etretat1.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/etretat2.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="./img/etretat3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+
+</div-->
+
+    <!--NEW SEASON-->
+<div class="newSeason">
+    <div class="left">
+        <h1>Su serie Ruan</h1>
+    </div>
+
+  <main class="right3">
+
+    <div class="right2">
+        <div class="nsItem">
+            <img src="./img/ruan1.jpg"
+                alt="" class="nsImg">
+        </div>
+
+        <div class="nsItem">
+            <img src="./img/ruan2.jpg"
+                alt="" class="nsImg">
+        </div>
+
+        <div class="nsItem">
+            <img src="./img/ruan3.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+
+        
+    <div class="right2">
+        <div class="nsItem">
+            <img src="./img/ruan4.jpg"
+                alt="" class="nsImg">
+        </div>
+
+        <div class="nsItem">
+            <img src="./img/ruan5.jpg"
+                alt="" class="nsImg">
+        </div>
+        
+        <div class="nsItem">
+            <img src="./img/ruan6.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+<!--
+    <div class="right2">
+        <div class="nsItem">
+            <img src="./img/torre1.jpg"
+                alt="" class="nsImg">
+        </div>
+
+        <div class="nsItem">
+            <img src="./img/torre2.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <img src="./img/torre3.jpg"
+                alt="" class="nsImg">
+        </div>
+    </div>
+
+
+        <div class="right2">
+            <div class="nsItem">
+                <img src="./img/nenufares1.jpg"
+                    alt="" class="nsImg">
+            </div>
+    
+            <div class="nsItem">
+                <img src="./img/nenufares2.jpg"
+                    alt="" class="nsImg">
+            </div>
+    
+            <div class="nsItem">
+                <img src="./img/nenufares3.jpg"
+                    alt="" class="nsImg">
+            </div>
+        </div>
+    
+            
+        <div class="right2">
+            <div class="nsItem">
+                <img src="./img/venecia1.jpg"
+                    alt="" class="nsImg">
+            </div>
+    
+            <div class="nsItem">
+                <img src="./img/venecia2.jpg"
+                    alt="" class="nsImg">
+            </div>
+            
+            <div class="nsItem">
+                <img src="./img/venecia3.jpg"
+                    alt="" class="nsImg">
+            </div>
+        </div>
+        
+        <div class="right2">
+            <div class="nsItem">
+                <img src="./img/ruan1.jpg"
+                    alt="" class="nsImg">
+            </div>
+    
+            <div class="nsItem">
+                <img src="./img/ruan2.jpg"
+                    alt="" class="nsImg">
+            </div>
+            <div class="nsItem">
+                <img src="./img/ruan3.jpg"
+                    alt="" class="nsImg">
+            </div>
+        </div>
+    -->
+    </div>
+  </main>  
+</div>    
+
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliates</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="./img/facebook.png" alt="" class="fIcon">
+                    <img src="./img/twitter.png" alt="" class="fIcon">
+                    <img src="./img/instagram.png" alt="" class="fIcon">
+                    <img src="./img/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@Lama Dev. All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app-paisajes.js"></script>
+
+</body>
+
+</html>
